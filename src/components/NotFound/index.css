@@ -1,0 +1,24 @@
+/* Write your CSS here */
+.not-found-container {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.not-found-image {
+  width: 90%;
+  max-width: 400px;
+  margin: 20px 0px;
+}
+.not-found-heading {
+  font-family: roboto;
+  font-size: 26px;
+  color: #1e293b;
+  font-weight: 500;
+}
+.not-found-description {
+  font-family: roboto;
+  font-size: 16px;
+  color: #616e7c;
+}

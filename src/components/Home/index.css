@@ -1,0 +1,22 @@
+/* Write your CSS here */
+.home-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+.home-image-mobile {
+  width: 100px;
+}
+.home-image-desktop {
+  display: none;
+}
+@media screen and (width>768px) {
+  .home-image-mobile {
+    display: none;
+  }
+  .home-image-desktop {
+    display: block;
+  max-width: 1000px;
+  }
+}
